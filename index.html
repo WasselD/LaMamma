@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Mamma </title>
+  <meta name="description" content="La Mamma, restaurant de cuisine tunisienne authentique à Tunis depuis 1971. Couscous, brik, lablabi et spécialités maison."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=DM+Mono:wght@400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="/assets/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursor"></div>
+
+<!-- ═══════════════════════════════════
+     NAVBAR
+═══════════════════════════════════ -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span class="logo-text">La <span class="dot">Mamma</span></span>
+      <span class="logo-sub">// Cuisine Tunisienne · Tunis</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="nav">
+      <ul class="navbar-nav align-items-lg-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="#hero">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Notre Histoire</a></li>
+        <li class="nav-item"><a class="nav-link nav-cta" href="#contact">Réserver →</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════
+     HERO  (split layout)
+═══════════════════════════════════ -->
+<section class="hero" id="hero">
+
+  <!-- Left: text -->
+  <div class="hero-left">
+    <div class="hero-tag">Tunis · Médina · depuis 1971</div>
+
+    <h1>
+      <strong>Cuisine</strong><br>
+      <em>authentique</em><br>
+      tunisienne
+    </h1>
+
+    <p class="hero-desc">
+      Des recettes de grand-mère, des épices du souk et la chaleur d'une table tunisienne — préparées chaque jour avec passion.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#menu" class="btn-lime">Voir le menu →</a>
+      <a href="#contact" class="btn-outline">Réserver une table</a>
+    </div>
+
+    <!-- Decorative large number -->
+    <div class="hero-num">71</div>
+  </div>
+
+  <!-- Right: image -->
+  <div class="hero-right">
+    <img
+      src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1400&q=85"
+      alt="Cuisine tunisienne La Mamma"
+    />
+  </div>
+
+  <!-- Floating stats -->
+  <div class="hero-stat">
+    <div class="stat-pill">
+      <div class="stat-pill-n">4.9</div>
+      <div class="stat-pill-l">Note clients</div>
+    </div>
+    <div class="stat-pill">
+      <div class="stat-pill-n">30+</div>
+      <div class="stat-pill-l">Producteurs locaux</div>
+    </div>
+    <div class="stat-pill">
+      <div class="stat-pill-n">53</div>
+      <div class="stat-pill-l">Ans de passion</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════════════
+     TRUST BAR  (ticker)
+═══════════════════════════════════ -->
+<div class="trust-bar" aria-hidden="true">
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <div class="ticker-item">Cuisine 100% Maison <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Épices du Souk <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Produits 100% Locaux <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Recettes de Grand-Mère <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Depuis 1971 <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Note 4.9 / 5 <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Ambiance Familiale <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Réservation Facile <span class="ticker-sep">◆</span></div>
+    </div>
+    <!-- Duplicate for seamless loop -->
+    <div class="ticker-track" aria-hidden="true">
+      <div class="ticker-item">Cuisine 100% Maison <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Épices du Souk <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Produits 100% Locaux <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Recettes de Grand-Mère <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Depuis 1971 <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Note 4.9 / 5 <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Ambiance Familiale <span class="ticker-sep">◆</span></div>
+      <div class="ticker-item">Réservation Facile <span class="ticker-sep">◆</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     MENU
+═══════════════════════════════════ -->
+<section id="menu">
+  <div class="container">
+
+    <div class="menu-header-row">
+      <div>
+        <div class="eyebrow">Spécialités de la maison</div>
+        <h2 class="section-h">Notre menu <em>tunisien</em></h2>
+      </div>
+      <div class="menu-count">06 plats · mis à jour 2026</div>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="menu-card">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80" alt="Couscous Tunisien"/>
+            <span class="menu-tag tag-green">Incontournable</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-title">Couscous Tunisien</div>
+            <p class="menu-desc">Semoule vapeur, agneau confit, légumes du marché, pois chiches et harissa maison.</p>
+            <div class="menu-footer">
+              <div class="menu-price">28 <span class="price-note">DT</span></div>
+              <span class="menu-cat">Pour 1 personne</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="menu-card">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80" alt="Brik à l'Œuf"/>
+            <span class="menu-tag tag-lime">Signature</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-title">Brik à l'Œuf</div>
+            <p class="menu-desc">Feuille croustillante, œuf coulant, thon, câpres, persil et citron — un classique tunisien.</p>
+            <div class="menu-footer">
+              <div class="menu-price">9,900 <span class="price-note">DT</span></div>
+              <span class="menu-cat">Entrée</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="menu-card">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80" alt="Lablabi"/>
+          </div>
+          <div class="menu-body">
+            <div class="menu-title">Lablabi</div>
+            <p class="menu-desc">Soupe chaude de pois chiches, cumin, ail, harissa et œuf poché — le réconfort tunisien.</p>
+            <div class="menu-footer">
+              <div class="menu-price">11,500 <span class="price-note">DT</span></div>
+              <span class="menu-cat">Soupe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="menu-card">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&q=80" alt="Tajine Tunisien"/>
+          </div>
+          <div class="menu-body">
+            <div class="menu-title">Tajine Tunisien</div>
+            <p class="menu-desc">Œufs, fromage, kefta, pommes de terre et persil cuits au four — une tradition du foyer.</p>
+            <div class="menu-footer">
+              <div class="menu-price">16,000 <span class="price-note">DT</span></div>
+              <span class="menu-cat">Plat principal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="menu-card">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80" alt="Makroudh au Miel"/>
+          </div>
+          <div class="menu-body">
+            <div class="menu-title">Makroudh au Miel</div>
+            <p class="menu-desc">Semoule fine, dattes Deglet Nour et miel de jujubier — le dessert des grandes occasions.</p>
+            <div class="menu-footer">
+              <div class="menu-price">7,500 <span class="price-note">DT</span></div>
+              <span class="menu-cat">Dessert</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="menu-card">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80" alt="Thé à la Menthe"/>
+            <span class="menu-tag tag-outline">Nouveau</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-title">Thé à la Menthe &amp; Pignons</div>
+            <p class="menu-desc">Thé vert Gunpowder, menthe fraîche et pignons grillés — servi à la tunisienne.</p>
+            <div class="menu-footer">
+              <div class="menu-price">5,000 <span class="price-note">DT</span></div>
+              <span class="menu-cat">Boisson</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     ABOUT
+═══════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-12 col-lg-5">
+        <div class="about-photo">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Notre cuisine familiale"/>
+          <div class="about-badge">
+            <div class="badge-n">53</div>
+            <div class="badge-l">Ans de passion</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <div class="eyebrow eyebrow-light">Notre histoire</div>
+        <h2 class="section-h section-h-light">Un héritage<br><em>ancré dans la tradition</em></h2>
+        <p class="about-body mt-3">
+          <strong>La Mamma</strong> est née de la passion d'une famille tunisoise pour les saveurs authentiques. Fondée en 1971 par la cheffe <strong>Fatma Ben Salah</strong>, notre cuisine perpétue des recettes transmises de génération en génération depuis les ruelles parfumées de la Médina de Tunis.
+        </p>
+        <p class="about-body mt-3">
+          Nous collaborons avec des producteurs locaux de Nabeul, Sfax et Kairouan pour vous apporter les meilleures huiles d'olive, harissas, dattes et épices du terroir. Chaque assiette raconte une histoire — celle d'un pays aux mille et une saveurs.
+        </p>
+        <div class="about-stats">
+          <div class="stat-cell">
+            <div class="stat-n">1971</div>
+            <div class="stat-l">Fondation</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-n">30+</div>
+            <div class="stat-l">Producteurs locaux</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-n">4.9 </div>
+            <div class="stat-l">Note clients</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="eyebrow" style="justify-content:center;">Avis clients</div>
+      <h2 class="section-h">Ils ont adoré <em>La Mamma</em></h2>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-12 col-md-4">
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <div class="review-stars">
+            <div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div>
+          </div>
+          <p class="review-text">Le meilleur couscous de Tunis — exactement comme celui de ma mère. On s'y sent vraiment chez soi.</p>
+          <div class="review-author">
+            <div class="avatar">SB</div>
+            <div>
+              <div class="author-name">Sonia Ben Salah</div>
+              <div class="author-loc">// Tunis</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <div class="review-stars">
+            <div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div>
+          </div>
+          <p class="review-text">Accueil chaleureux, service attentionné et un brik à l'œuf croustillant à souhait. Incontournable !</p>
+          <div class="review-author">
+            <div class="avatar">KM</div>
+            <div>
+              <div class="author-name">Karim Mabrouk</div>
+              <div class="author-loc">// La Marsa</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <div class="review-stars">
+            <div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div>
+          </div>
+          <p class="review-text">Nous venons en famille depuis 10 ans. Les enfants adorent le lablabi et les makroudh au miel !</p>
+          <div class="review-author">
+            <div class="avatar">AT</div>
+            <div>
+              <div class="author-name">Amira Trabelsi</div>
+              <div class="author-loc">// Carthage</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     CONTACT
+═══════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="eyebrow" style="justify-content:center;">Réservations</div>
+      <h2 class="section-h">Réservez votre <em>table</em></h2>
+      <p class="section-lead">Faites votre demande en ligne ou appelez-nous directement. Réponse sous 24h.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-10">
+        <div class="contact-wrap">
+
+          <div class="form-side">
+            <div class="form-h">Demande de réservation</div>
+            <p class="form-sub">// Confirmé sous 24h</p>
+
+            <div class="form-row">
+              <div class="field">
+                <label class="field-label">Votre nom</label>
+                <input type="text" class="field-input" placeholder="Wassel Dridi"/>
+              </div>
+              <div class="field">
+                <label class="field-label">Email</label>
+                <input type="email" class="field-input" placeholder="wasselforbusiness@gmail.com"/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label class="field-label">Téléphone</label>
+                <input type="tel" class="field-input" placeholder="+216 54 251 213"/>
+              </div>
+              <div class="field">
+                <label class="field-label">Nombre de personnes</label>
+                <input type="number" class="field-input" placeholder="2" min="1" max="30"/>
+              </div>
+            </div>
+            <div class="field">
+              <label class="field-label">Message ou demande spéciale</label>
+              <textarea class="field-input" placeholder="Anniversaire ? Régime alimentaire ? Dites-nous tout…"></textarea>
+            </div>
+
+            <a href="mailto:calypsotunisia@gmail.com" class="btn-green">
+              Envoyer la demande →
+            </a>
+          </div>
+
+          <div class="info-side">
+            <div class="info-intro">Nous vous accueillons comme à la maison.</div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <div class="info-lbl">Adresse</div>
+                <div class="info-val">11 bis, Rue de Marseille<br>Tunis 1000, Tunisie</div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="bi bi-clock-fill"></i></div>
+              <div>
+                <div class="info-lbl">Horaires</div>
+                <div class="info-val">Mardi – Dimanche<br>12h00 – 22h30</div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <div class="info-lbl">Téléphone</div>
+                <div class="info-val">
+                  <a href="tel:+21698540888">+216 98 540 888</a><br>
+                  <span style="font-size:.75rem;color:rgba(255,255,255,.25);">Appel ou WhatsApp</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <div class="info-lbl">Email</div>
+                <div class="info-val"><a href="mailto:lamamma@gmail.com">lamamma@gmail.com</a></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     FOOTER
+═══════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+
+      <div>
+        <div class="foot-brand">La <span class="dot">Mamma</span></div>
+        <div class="foot-tag">// Cuisine authentique · Tunis, Tunisie</div>
+        <p class="foot-desc">Des saveurs tunisiennes authentiques depuis 1971, préparées avec amour et des produits locaux.</p>
+        <div class="foot-socials">
+          <a href="https://www.facebook.com/LaMammaTn" target="_blank" class="soc" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="soc" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="soc" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          <a href="#" class="soc" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <div class="foot-col-label">Navigation</div>
+        <ul class="foot-links">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Notre histoire</a></li>
+          <li><a href="#testimonials">Avis</a></li>
+          <li><a href="#contact">Réserver</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="foot-col-label">Contact</div>
+        <ul class="foot-links">
+          <li><a href="tel:+21698540888">+216 98 540 888</a></li>
+          <li><a href="mailto:lamamma@gmail.com">lamamma@gmail.com</a></li>
+          <li>11 bis, Rue de Marseille</li>
+          <li>Tunis 1000, Tunisie</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="foot-copy">© 2026 La Mamma · Tous droits réservés · Powered by WasselDev</div>
+      <div class="foot-legal">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Custom cursor
+  const cursor = document.getElementById('cursor');
+  if (window.matchMedia('(pointer: fine)').matches) {
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top  = e.clientY + 'px';
+    });
+    document.querySelectorAll('a, button, .menu-card').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.style.transform = 'translate(-50%,-50%) scale(3)');
+      el.addEventListener('mouseleave', () => cursor.style.transform = 'translate(-50%,-50%) scale(1)');
+    });
+  } else {
+    cursor.style.display = 'none';
+  }
+
+  // Navbar shadow on scroll
+  const nav = document.querySelector('.navbar');
+  window.addEventListener('scroll', () => {
+    nav.style.boxShadow = window.scrollY > 30 ? '0 4px 24px rgba(0,0,0,.3)' : 'none';
+  });
+</script>
+</body>
+</html>
