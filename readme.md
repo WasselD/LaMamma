@@ -15,11 +15,12 @@ A responsive restaurant webpage built with **HTML**, **CSS**, and **Bootstrap 5*
 ```
 project/
 │
-├── restaurant.html      # Main HTML file (single-file project)
+├── index.html      # Main HTML file (single-file project)
+|__ css/style.ss   #style css
 └── README.md            # Project documentation
 ```
 
-> All CSS is embedded in a `<style>` block inside `index.html`. No external CSS file is required.
+
 
 ---
 
